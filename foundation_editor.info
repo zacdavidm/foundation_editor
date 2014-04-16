@@ -1,0 +1,13 @@
+name = Foundation Editor
+description = Text format settings for foundation editor setup
+core = 7.x
+package = Features
+version = 7.x-1.0-beta1
+project = foundation_editor
+dependencies[] = features
+dependencies[] = filter
+dependencies[] = wysiwyg
+dependencies[] = wysiwyg_filter
+features[features_api][] = api:2
+features[filter][] = foundation_editor
+features[wysiwyg][] = foundation_editor

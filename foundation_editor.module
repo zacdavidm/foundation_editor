@@ -1,0 +1,15 @@
+<?php
+/**
+ * @file
+ * Drupal needs this blank file.
+ */
+
+function foundation_editor_wysiwyg_editor_settings_alter(&$settings, $context) {
+  // We only add the settings to ckeditor wysiwyg profiles.
+  if ($context['profile']->editor == 'ckeditor') {
+    $format = $context['profile']->format;
+    $path = drupal_get_path('module', 'foundation_editor') . '/js';
+    $settings['stylesSet'] = "foundation_editor_styleset:/$path/ckeditor_styles.js";
+  }
+}
+
