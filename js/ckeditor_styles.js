@@ -1,5 +1,70 @@
 CKEDITOR.stylesSet.add('foundation_editor_styleset', [
   {
+    name:'Inline List',
+    element:'ul',
+    attributes:{class:'inline-list'}
+  },
+  {
+    name:'Medium Block Grid 1',
+    element:'ul',
+    attributes:{class:'medium-block-grid-1'}
+  },
+  {
+    name:'Medium Block Grid 2',
+    element:'ul',
+    attributes:{class:'medium-block-grid-2'}
+  },
+  {
+    name:'Medium Block Grid 3',
+    element:'ul',
+    attributes:{class:'medium-block-grid-3'}
+  },
+  {
+    name:'Medium Block Grid 4',
+    element:'ul',
+    attributes:{class:'medium-block-grid-4'}
+  },
+  {
+    name:'Medium Block Grid 5',
+    element:'ul',
+    attributes:{class:'medium-block-grid-5'}
+  },
+  {
+    name:'Medium Block Grid 6',
+    element:'ul',
+    attributes:{class:'medium-block-grid-6'}
+  },
+  {
+    name:'Medium Block Grid 7',
+    element:'ul',
+    attributes:{class:'medium-block-grid-7'}
+  },
+  {
+    name:'Medium Block Grid 8',
+    element:'ul',
+    attributes:{class:'medium-block-grid-8'}
+  },
+  {
+    name:'Medium Block Grid 9',
+    element:'ul',
+    attributes:{class:'medium-block-grid-9'}
+  },
+  {
+    name:'Medium Block Grid 10',
+    element:'ul',
+    attributes:{class:'medium-block-grid-10'}
+  },
+  {
+    name:'Medium Block Grid 11',
+    element:'ul',
+    attributes:{class:'medium-block-grid-11'}
+  },
+  {
+    name:'Medium Block Grid 12',
+    element:'ul',
+    attributes:{class:'medium-block-grid-12'}
+  },
+  {
     name:'Teaser Break',
     element:'p',
     attributes:{class:'teaser-break'}
@@ -89,28 +154,28 @@ CKEDITOR.stylesSet.add('foundation_editor_styleset', [
     element:'div',
     attributes: {class:'medium-12 column'}
   },
-  { 
-    name: 'Button',	
+  {
+    name: 'Button',
     element: 'a',
     attributes: {class: 'button'}
   },
-  { 
-    name: 'Tiny Button',	
+  {
+    name: 'Tiny Button',
     element: 'a',
     attributes: {class: 'button tiny'}
   },
-  { 
-    name: 'Small Button',	
+  {
+    name: 'Small Button',
     element: 'a',
     attributes: {class: 'button small'}
   },
-  { 
-    name: 'Large Button',	
+  {
+    name: 'Large Button',
     element: 'a',
     attributes: {class: 'button large'}
   },
-  { 
-    name: 'Expand Button',	
+  {
+    name: 'Expand Button',
     element: 'a',
     attributes: {class: 'button expand'}
   }
